@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +10,6 @@
 </head>
 
 <body>
-    <body>
     <header>
         <h1>Hidrogeología de la Cuenca de México</h1>
         <section id="Subtitulo">
@@ -18,7 +18,7 @@
     </header>
 
     <main>
-        <section id="conceptos-generales">
+        <section class="contenedor">
             <h2>1. Fundamentos de Hidrogeología</h2>
             <p>
                 Un acuífero es una formación geológica capaz de almacenar y transmitir agua en cantidades significativas. Su comportamiento hidráulico depende de propiedades intrínsecas como la <strong>conductividad hidráulica (K)</strong>, la <strong>porosidad eficaz ($\phi_e$)</strong> y la <strong>transmisividad (T)</strong>.
@@ -30,9 +30,9 @@
             </ul>
             </section>
 
-        <hr>
+        <hr> <!--línea divisoria-->
 
-        <section id="geologia-cdmx">
+        <section class="contenedor">
             <h2>2. Marco Geológico y Estratigráfico</h2>
             <p>
                 La Cuenca de México presenta una estratigrafía compleja resultado de intensa actividad volcánica y sedimentación lacustre del Cuaternario. Para fines hidrogeológicos, distinguimos:
@@ -51,7 +51,7 @@
 
         <hr>
 
-        <section id="acuiferos-detalle">
+        <section class="contenedor">
             <h2>3. El Sistema Acuífero de la CDMX (1501)</h2>
             <p>
                 Según datos de <strong>CONAGUA</strong> y el <strong>SGM</strong>, el acuífero principal se clasifica como <strong>libre a semiconfinado</strong>.
@@ -61,12 +61,14 @@
                 <p><strong>Descarga:</strong> Dominada por el bombeo intensivo mediante pozos profundos para abastecimiento urbano.</p>
                 <p><strong>Estado de Explotación:</strong> Existe un déficit hídrico severo. La extracción (~18 m³/s) supera con creces la recarga natural estimada, resultando en un estado de <strong>sobreexplotación</strong> crónico.</p>
             </div>
+            <section class="esquema-acuifero">
             <img src="AcuíferosCDMX_Gemini.jpg" alt="Esquema ilustrativo de la hidrogeología de la CDMX" class="esquema-acuifero" title="Imágen ilustrativa generada con Gemini">
             </section>
+        </section>
 
         <hr>
 
-        <section id="subsidencia">
+        <section class="contenedor">
             <h2>4. Geodinámica: Subsidencia y Fracturamiento</h2>
             <p>
                 La extracción intensiva de agua provoca una reducción en la <strong>presión de poro</strong>, lo que deriva en el proceso de <strong>consolidación de las arcillas</strong> lacustres.
@@ -78,7 +80,7 @@
 
         <hr>
 
-        <section id="gestion">
+        <section class="contenedor">
             <h2>5. Marco de Gestión Hídrica</h2>
             <p>
                 La gestión en la CDMX está regulada por la <strong>Ley de Aguas Nacionales</strong>. Actualmente, los esfuerzos se centran en:
@@ -92,23 +94,27 @@
 
         <hr>
 
-        <section id="grid-interesante">
-            <h2>Indicadores y Datos Relevantes</h2>
+        <section id="datos_int">
+            <h2>¿Sabías que...?</h2>
             <div class="grid-container">
                 <div class="card">
                     <h3>Abastecimiento</h3>
+                    <hr>
                     <p>Cerca del <strong>70%</strong> del agua consumida en la CDMX proviene del acuífero local, el resto es importado (Cutzamala y Lerma).</p>
                 </div>
                 <div class="card">
                     <h3>Calidad del Agua</h3>
+                    <hr>
                     <p>Se reportan concentraciones elevadas de <strong>Hierro ($Fe$) y Manganeso ($Mn$)</strong> en zonas de extracción profunda debido a la reducción química en el acuitardo.</p>
                 </div>
                 <div class="card">
                     <h3>Vulnerabilidad</h3>
+                    <hr>
                     <p>La zona de transición es la más susceptible a la contaminación por nitratos debido a la delgadez de la capa protectora de arcilla.</p>
                 </div>
                 <div class="card">
                     <h3>Piezometría</h3>
+                    <hr>
                     <p>Se han registrado descensos de los niveles estáticos superiores a los 1.5 metros anuales en el centro de la cuenca.</p>
                 </div>
             </div>
@@ -117,8 +123,8 @@
 
     <footer>
         <p>Fuente: Datos procesados con base en informes de la Comisión Nacional del Agua (CONAGUA) y el Servicio Geológico Mexicano (SGM).</p>
+        <p>Las imágenes fueron elavoradas con Gemini y son meramente ilustrativas. Contienen errores. </p>
     </footer>
-</body>
 </body>
 
 </html>
