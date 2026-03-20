@@ -18,7 +18,7 @@ body{
     margin:0;
 }
 
-header{
+..Titulo{
     font-family:"Anton SC", sans-serif;
     line-height: 1.1;
     text-transform: uppercase;
@@ -37,7 +37,7 @@ header{
     margin-top:5px;
 }
 
-.contenedor{
+.texto{
     background-color:rgba(0,0,0,0.5);
     padding:20px;
     border-left:5px solid rgb(209,155,104);
