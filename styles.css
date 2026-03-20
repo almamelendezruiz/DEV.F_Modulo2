@@ -18,7 +18,7 @@ body{
     margin:0;
 }
 
-..Titulo{
+.Titulo{
     font-family:"Anton SC", sans-serif;
     line-height: 1.1;
     text-transform: uppercase;
